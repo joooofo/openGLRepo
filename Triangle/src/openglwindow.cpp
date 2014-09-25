@@ -47,6 +47,7 @@
 #include <QtGui/QPainter>
 
 
+
 OpenGLWindow::OpenGLWindow(QWindow *parent)
     : QWindow(parent)
     , m_update_pending(false)

@@ -1,5 +1,6 @@
 QT += core opengl
 
+
 TARGET = HelloOpenGL
 TEMPLATE = app
 
@@ -12,4 +13,5 @@ SOURCES += \
 HEADERS += \
    include\openglwindow.h \
    include\trianglewindow.h \
-   include\changer.h
+   include\changer.h \
+    shaders.h

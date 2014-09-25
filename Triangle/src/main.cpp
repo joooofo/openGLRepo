@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-//#include "include/openglwindow.h"
+
 #include "include/trianglewindow.h"
 
 
@@ -48,10 +48,10 @@
 #include <QtGui/QMatrix4x4>
 #include <QtGui/QOpenGLShaderProgram>
 #include <QtGui/QScreen>
+#include <qapplication.h>
 
 #include <QtCore/qmath.h>
 
-//! [1]
 
 int main(int argc, char **argv)
 {
